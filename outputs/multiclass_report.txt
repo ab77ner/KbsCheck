@@ -1,0 +1,32 @@
+========== Overall Metrics ==========
+Accuracy          : 0.995866
+Precision(weight) : 0.995896
+Recall(weight)    : 0.995866
+F1(weight)        : 0.995870
+Precision(macro)  : 0.996403
+Recall(macro)     : 0.996375
+F1(macro)         : 0.996379
+AUC(macro OVR)    : 0.999991
+
+========== Per-Class Metrics ==========
+Class                         ID  Precision     Recall         F1   Support      Pred
+--------------------------------------------------------------------------------------
+Normal                         0     1.0000     1.0000     1.0000        10        10
+InitialAccess                  1     0.9877     0.9986     0.9931       724       732
+PrivilegeEscalation            2     1.0000     0.9972     0.9986       725       723
+Persistence                    3     0.9891     0.9972     0.9931       725       731
+LateralMovement                4     1.0000     0.9903     0.9951       724       717
+ContainerEscape                5     0.9986     0.9959     0.9972       724       722
+DataExfiltration               6     0.9958     0.9931     0.9945       724       722
+Misconfiguration               7     1.0000     0.9986     0.9993       724       723
+
+========== Confusion Matrix ==========
+true\pred          0       1       2       3       4       5       6       7
+0                 10       0       0       0       0       0       0       0
+1                  0     723       0       1       0       0       0       0
+2                  0       0     723       2       0       0       0       0
+3                  0       1       0     723       0       0       1       0
+4                  0       4       0       1     717       0       2       0
+5                  0       0       0       3       0     721       0       0
+6                  0       4       0       1       0       0     719       0
+7                  0       0       0       0       0       1       0     723

@@ -1,0 +1,80 @@
+{
+  "ContainerEscape": [
+    "Container Escape via Privileged Container",
+    "Pod Escape via Container Runtime"
+  ],
+  "LateralMovement": [
+    "DNS Spoofing to Redirect Traffic",
+    "Kubelet API Exploitation",
+    "Network Policy Bypass via hostNetwork",
+    "Network Policy Evasion via Port Forwarding",
+    "Node Takeover via Kubelet",
+    "Sidecar Injection via Admission Controller",
+    "Webhook Timeout Exploitation"
+  ],
+  "PrivilegeEscalation": [
+    "API Server Impersonation Attack",
+    "Custom Resource Definition Exploitation",
+    "Default Service Account Privilege Escalation to Cluster Admin",
+    "Kubelet Certificate Exploitation",
+    "RBAC Misconfiguration Exploitation",
+    "Service Account Impersonation via RBAC"
+  ],
+  "InitialAccess": [
+    "API Server Health Check Exploitation",
+    "Container Image Supply Chain Attack",
+    "Helm Chart Injection Attack",
+    "Kubernetes Dashboard Exploitation"
+  ],
+  "Misconfiguration": [
+    "Automatic API Token Mounting",
+    "Cluster Role with Wildcards",
+    "Disabled Network Policies on Critical Namespaces",
+    "Disabled Pod Security Policy",
+    "Exposed Kubernetes Dashboard",
+    "Host IPC Namespace Access",
+    "Host Network Namespace Access",
+    "Host PID Namespace Access",
+    "Insecure Ingress Configuration",
+    "Insecure Kubelet Configuration",
+    "Kubelet Authorization Mode AllowAll",
+    "Kubelet Read-Only Port Enabled",
+    "Missing API Server Rate Limiting",
+    "Missing Admission Controllers",
+    "Missing Container Runtime Security",
+    "Missing Kubelet Client Certificate Rotation",
+    "Missing Kubernetes API Server Logging",
+    "Missing Pod Security Standards",
+    "Missing RBAC for Secrets",
+    "Missing Resource Limits",
+    "Overly Permissive RBAC Bindings",
+    "Privileged Container Execution",
+    "Running as Root User",
+    "Secrets in Environment Variables",
+    "Unencrypted Communication Between Control Plane and Workers",
+    "Unencrypted Secrets in etcd",
+    "Unencrypted etcd Communication",
+    "Unencrypted etcd at Rest",
+    "Unrestricted NodePort Service",
+    "Weak Kubelet Certificate Validation",
+    "Weak TLS Configuration"
+  ],
+  "DataExfiltration": [
+    "Etcd Data Extraction",
+    "Horizontal Pod Autoscaler Resource Exhaustion",
+    "Metrics Server Data Extraction",
+    "RBAC Denial of Service",
+    "Resource Quota Evasion",
+    "Secrets Extraction via ConfigMap",
+    "Service Account Token Theft via Pod Logs"
+  ],
+  "Normal": [
+    "None"
+  ],
+  "Persistence": [
+    "Log Manipulation and Cover-up",
+    "Malicious DaemonSet Deployment",
+    "Operator-based Backdoor Installation",
+    "Persistence via CronJob"
+  ]
+}

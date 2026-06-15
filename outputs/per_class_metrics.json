@@ -1,0 +1,74 @@
+{
+  "Normal": {
+    "label_id": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "support": 10,
+    "true_count": 10,
+    "pred_count": 10
+  },
+  "InitialAccess": {
+    "label_id": 1,
+    "precision": 0.9877049180327869,
+    "recall": 0.9986187845303868,
+    "f1": 0.9931318681318682,
+    "support": 724,
+    "true_count": 724,
+    "pred_count": 732
+  },
+  "PrivilegeEscalation": {
+    "label_id": 2,
+    "precision": 1.0,
+    "recall": 0.9972413793103448,
+    "f1": 0.9986187845303868,
+    "support": 725,
+    "true_count": 725,
+    "pred_count": 723
+  },
+  "Persistence": {
+    "label_id": 3,
+    "precision": 0.9890560875512996,
+    "recall": 0.9972413793103448,
+    "f1": 0.9931318681318682,
+    "support": 725,
+    "true_count": 725,
+    "pred_count": 731
+  },
+  "LateralMovement": {
+    "label_id": 4,
+    "precision": 1.0,
+    "recall": 0.9903314917127072,
+    "f1": 0.9951422623178349,
+    "support": 724,
+    "true_count": 724,
+    "pred_count": 717
+  },
+  "ContainerEscape": {
+    "label_id": 5,
+    "precision": 0.9986149584487535,
+    "recall": 0.9958563535911602,
+    "f1": 0.9972337482710927,
+    "support": 724,
+    "true_count": 724,
+    "pred_count": 722
+  },
+  "DataExfiltration": {
+    "label_id": 6,
+    "precision": 0.9958448753462604,
+    "recall": 0.9930939226519337,
+    "f1": 0.9944674965421854,
+    "support": 724,
+    "true_count": 724,
+    "pred_count": 722
+  },
+  "Misconfiguration": {
+    "label_id": 7,
+    "precision": 1.0,
+    "recall": 0.9986187845303868,
+    "f1": 0.9993089149965446,
+    "support": 724,
+    "true_count": 724,
+    "pred_count": 723
+  }
+}

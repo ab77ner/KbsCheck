@@ -1,0 +1,39 @@
+seed: 42
+num_classes: 8
+class_names:
+  - Normal
+  - InitialAccess
+  - PrivilegeEscalation
+  - Persistence
+  - LateralMovement
+  - ContainerEscape
+  - DataExfiltration
+  - Misconfiguration
+
+data:
+  train_path: data/train.jsonl
+  val_path: data/val.jsonl
+  test_path: data/test.jsonl
+  seq_len: 20
+  input_dim: 19
+
+model:
+  embed_dim: 96
+  conv_channels: 128
+  hidden_dim: 160
+  dropout: 0.25
+
+train:
+  epochs: 1000
+  batch_size: 96
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  patience: 300
+  min_delta: 0.0001
+  grad_clip: 5.0
+  use_class_weight: true
+  device: auto
+
+outputs:
+  output_dir: outputs
+  plot_dir: plots

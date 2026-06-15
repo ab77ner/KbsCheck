@@ -1,0 +1,45 @@
+{
+  "labels": [
+    "Normal",
+    "InitialAccess",
+    "PrivilegeEscalation",
+    "Persistence",
+    "LateralMovement",
+    "ContainerEscape",
+    "DataExfiltration",
+    "Misconfiguration"
+  ],
+  "train": 40794,
+  "val": 4526,
+  "test": 5080,
+  "train_distribution": {
+    "Persistence": 5822,
+    "DataExfiltration": 5823,
+    "LateralMovement": 5823,
+    "Normal": 36,
+    "Misconfiguration": 5822,
+    "InitialAccess": 5823,
+    "PrivilegeEscalation": 5822,
+    "ContainerEscape": 5823
+  },
+  "val_distribution": {
+    "Misconfiguration": 646,
+    "InitialAccess": 646,
+    "ContainerEscape": 646,
+    "LateralMovement": 646,
+    "PrivilegeEscalation": 646,
+    "DataExfiltration": 646,
+    "Persistence": 646,
+    "Normal": 4
+  },
+  "test_distribution": {
+    "InitialAccess": 724,
+    "Persistence": 725,
+    "ContainerEscape": 724,
+    "LateralMovement": 724,
+    "Misconfiguration": 724,
+    "PrivilegeEscalation": 725,
+    "DataExfiltration": 724,
+    "Normal": 10
+  }
+}

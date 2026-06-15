@@ -1,0 +1,34 @@
+{
+  "Normal": {
+    "count": 10,
+    "ratio": 0.001968503937007874
+  },
+  "InitialAccess": {
+    "count": 724,
+    "ratio": 0.14251968503937007
+  },
+  "PrivilegeEscalation": {
+    "count": 725,
+    "ratio": 0.14271653543307086
+  },
+  "Persistence": {
+    "count": 725,
+    "ratio": 0.14271653543307086
+  },
+  "LateralMovement": {
+    "count": 724,
+    "ratio": 0.14251968503937007
+  },
+  "ContainerEscape": {
+    "count": 724,
+    "ratio": 0.14251968503937007
+  },
+  "DataExfiltration": {
+    "count": 724,
+    "ratio": 0.14251968503937007
+  },
+  "Misconfiguration": {
+    "count": 724,
+    "ratio": 0.14251968503937007
+  }
+}
